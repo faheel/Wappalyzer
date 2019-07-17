@@ -141,7 +141,11 @@ class Driver {
       console.log(`[wappalyzer ${type}]`, `[${source}]`, message);
     }
 
-    this.emit('log', { message, source, type });
+    this.emit('log', {
+      message,
+      source,
+      type,
+    });
   }
 
   displayApps(detected, meta) {
@@ -167,6 +171,7 @@ class Driver {
           version: app.version || null,
           icon: app.props.icon || 'default.svg',
           website: app.props.website,
+          cpe: app.props.cpe || null,
           categories,
         });
       }
@@ -227,7 +232,11 @@ class Driver {
       delete this.analyzedPageUrls[pageUrl.href];
     }
 
-    const { cookies, headers, scripts } = browser;
+    const {
+      cookies,
+      headers,
+      scripts,
+    } = browser;
 
     const html = processHtml(browser.html, this.options.htmlMaxCols, this.options.htmlMaxRows);
     const js = processJs(browser.js, this.wappalyzer.jsPatterns);
@@ -260,7 +269,10 @@ class Driver {
       }, [],
     );
 
-    this.emit('visit', { browser, pageUrl });
+    this.emit('visit', {
+      browser,
+      pageUrl,
+    });
 
     return resolve(reducedLinks);
   }
