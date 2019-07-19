@@ -4620,6 +4620,7 @@
       "cats": [
         64
       ],
+      "cpe": "cpe:/a:ibm:datapower_gateway",
       "headers": {
         "X-Backside-Transport": "",
         "X-Global-Transaction-ID": ""
@@ -4631,6 +4632,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:ibm:http_server",
       "headers": {
         "Server": "IBM_HTTP_Server(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -4641,6 +4643,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:ibm:tivoli_storage_manager",
       "headers": {
         "Server": "TSM_HTTP(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -4651,6 +4654,7 @@
       "cats": [
         6
       ],
+      "cpe": "cpe:/a:ibm:websphere_commerce_suite",
       "html": "href=\"(?:\\/|[^>]+)webapp\\/wcs\\/",
       "icon": "IBM.svg",
       "implies": "Java",
@@ -4661,6 +4665,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:ibm:websphere_portal",
       "headers": {
         "IBM-Web2-Location": "",
         "Itx-Generated-Timestamp": ""
@@ -4674,6 +4679,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:microsoft:internet_information_server",
       "headers": {
         "Server": "^(?:Microsoft-)?IIS(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -4760,6 +4766,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:impresscms:impresscms",
       "cookies": {
         "ICMSSession": "",
         "ImpressCMS": ""
@@ -4776,6 +4783,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:impresspages:impresspages_cms",
       "icon": "ImpressPages.png",
       "implies": "PHP",
       "meta": {
@@ -4816,6 +4824,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:indexhibit:indexhibit",
       "html": "<(?:link|a href) [^>]+ndxz-studio",
       "implies": [
         "PHP",
@@ -4862,6 +4871,7 @@
       "cats": [
         32
       ],
+      "cpe": "cpe:/a:infusionsoft_project:infusionsoft",
       "html": [
         "<input [^>]*name=\"infusionsoft_version\" [^>]*value=\"([^>]*)\" [^>]*\\/>\\;version:\\1",
         "<input [^>]*value=\"([^>]*)\" [^>]*name=\"infusionsoft_version\" [^>]*\\/>\\;version:\\1"
@@ -4905,6 +4915,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:instantcms:instantcms",
       "cookies": {
         "InstantCMS[logdate]": ""
       },
@@ -4920,6 +4931,7 @@
         22,
         46
       ],
+      "cpe": "cpe:/a:intel:active_management_technology",
       "headers": {
         "Server": "Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?\\;version:\\1"
       },
@@ -4930,6 +4942,7 @@
       "cats": [
         15
       ],
+      "cpe": "",
       "icon": "IntenseDebate.png",
       "script": "intensedebate\\.com",
       "website": "http://intensedebate.com"
@@ -5149,6 +5162,7 @@
       "cats": [
         57
       ],
+      "cpe": "cpe:/a:jekyllrb:jekyll",
       "html": [
         "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</",
         "<!-- Created with Jekyll Now -",
@@ -5258,6 +5272,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:joomla:joomla",
       "headers": {
         "X-Content-Encoded-By": "Joomla! ([\\d.]+)\\;version:\\1"
       },
@@ -5368,6 +5383,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:kentico:kentico_cms",
       "cookies": {
         "CMSPreferredCulture": ""
       },
@@ -5381,6 +5397,7 @@
       "cats": [
         22
       ],
+      "cpe": "",
       "headers": {
         "Server": "^Kestrel"
       },
@@ -5405,6 +5422,7 @@
         29,
         25
       ],
+      "cpe": "cpe:/a:elasticsearch:kibana",
       "headers": {
         "kbn-name": "kibana",
         "kbn-version": "^([\\d.]+)$\\;version:\\1"
@@ -5490,6 +5508,7 @@
       "cats": [
         21
       ],
+      "cpe": "cpe:/a:koha:koha",
       "html": [
         "<input name=\"koha_login_context\" value=\"intranet\" type=\"hidden\">",
         "<a href=\"/cgi-bin/koha/"
@@ -5508,6 +5527,7 @@
       "cats": [
         18
       ],
+      "cpe": "cpe:/a:kohanaframework:kohana",
       "cookies": {
         "kohanasession": ""
       },
@@ -5606,6 +5626,7 @@
       "cats": [
         47
       ],
+      "cpe": "cpe:/a:kubernetes:kubernetes",
       "html": "<html ng-app=\"kubernetesDashboard\">",
       "icon": "Kubernetes.svg",
       "website": "https://kubernetes.io/"
@@ -5614,6 +5635,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:lepton-cms:lepton",
       "icon": "LEPTON.png",
       "implies": "PHP",
       "meta": {
@@ -5625,6 +5647,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:ni:labview",
       "headers": {
         "Server": "LabVIEW(?:/([\\d\\.]+))?\\;version:\\1"
       },
@@ -5635,6 +5658,7 @@
       "cats": [
         18
       ],
+      "cpe": "cpe:/a:laravel:laravel",
       "cookies": {
         "laravel_session": ""
       },
@@ -5688,6 +5712,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:liferay:liferay_portal",
       "headers": {
         "Liferay-Portal": "[a-z\\s]+([\\d.]+)\\;version:\\1"
       },
@@ -5701,6 +5726,7 @@
       "cats": [
         18
       ],
+      "cpe": "cpe:/a:liftweb:lift",
       "headers": {
         "X-Lift-Version": "(.+)\\;version:\\1"
       },
@@ -5727,6 +5753,7 @@
       "cats": [
         59
       ],
+      "cpe": "cpe:/a:lightbox_photo_gallery_project:lightbox_photo_gallery",
       "html": "<link [^>]*href=\"[^\"]+lightbox(?:\\.min)?\\.css",
       "icon": "Lightbox.png",
       "script": "lightbox.*\\.js",
@@ -5757,6 +5784,7 @@
       "cats": [
         19
       ],
+      "cpe": "cpe:/a:limesurvey:limesurvey",
       "headers": {
         "generator": "LimeSurvey"
       },
@@ -5799,6 +5827,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:litespeedtech:litespeed_web_server",
       "headers": {
         "Server": "^LiteSpeed$"
       },
@@ -5843,6 +5872,7 @@
         52,
         53
       ],
+      "cpe": "",
       "icon": "LiveHelp.png",
       "script": "^https?://server\\.livehelp\\.it/widgetjs/[0-9]{5}/[0-9]{1,3}\\.js",
       "website": "http://www.livehelp.it"
@@ -5934,6 +5964,7 @@
       "cats": [
         59
       ],
+      "cpe": "cpe:/a:lodash:lodash",
       "excludes": "Underscore.js",
       "icon": "Lo-dash.png",
       "js": {
@@ -5958,6 +5989,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:ibm:lotus_domino",
       "headers": {
         "Server": "Lotus-Domino"
       },
@@ -5977,6 +6009,7 @@
       "cats": [
         27
       ],
+      "cpe": "cpe:/a:lua:lua",
       "headers": {
         "X-Powered-By": "\\bLua(?: ([\\d.]+))?\\;version:\\1"
       },
@@ -5987,6 +6020,7 @@
       "cats": [
         34
       ],
+      "cpe": "cpe:/a:apache:lucene",
       "icon": "Lucene.png",
       "implies": "Java",
       "website": "http://lucene.apache.org/core/"
@@ -6044,6 +6078,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:modx:modx_revolution",
       "headers": {
         "X-Powered-By": "^MODX"
       },
@@ -6110,6 +6145,7 @@
       "cats": [
         6
       ],
+      "cpe": "cpe:/a:magento:magento",
       "cookies": {
         "frontend": "\\;confidence:50"
       },
@@ -6138,6 +6174,7 @@
       "cats": [
         32
       ],
+      "cpe": "cpe:/a:thinkshout:mailchimp",
       "html": [
         "<form [^>]*data-mailchimp-url",
         "<form [^>]*id=\"mc-embedded-subscribe-form\"",
@@ -6178,6 +6215,7 @@
       "cats": [
         13
       ],
+      "cpe": "cpe:/a:mantisbt:mantisbt",
       "html": "<img[^>]+ alt=\"Powered by Mantis Bugtracker",
       "icon": "MantisBT.png",
       "implies": "PHP",
@@ -6195,6 +6233,7 @@
       "cats": [
         34
       ],
+      "cpe": "cpe:/a:mariadb_project:mariadb",
       "icon": "mariadb.svg",
       "website": "https://mariadb.org"
     },
@@ -6218,6 +6257,7 @@
       "cats": [
         59
       ],
+      "cpe": "cpe:/a:marked_project:marked",
       "icon": "marked.svg",
       "js": {
         "marked": ""
@@ -6277,6 +6317,7 @@
       "cookies": {
         "PIWIK_SESSID": ""
       },
+      "cpe": "cpe:/a:matomo:matomo",
       "icon": "Piwik.png",
       "js": {
         "Matomo": "",
@@ -6295,6 +6336,7 @@
       "cats": [
         2
       ],
+      "cpe": "cpe:/a:jenkins:mattermost",
       "html": "<noscript> To use Mattermost, please enable JavaScript\\. </noscript>",
       "icon": "mattermost.png",
       "implies": [
@@ -6313,6 +6355,7 @@
       "cats": [
         32
       ],
+      "cpe": "cpe:/a:mautic:mautic",
       "icon": "mautic.svg",
       "js": {
         "MauticTrackingObject": ""
@@ -6382,6 +6425,7 @@
       "cats": [
         8
       ],
+      "cpe": "cpe:/a:mediawiki:mediawiki",
       "html": [
         "<body[^>]+class=\"mediawiki\"",
         "<(?:a|img)[^>]+>Powered by MediaWiki</a>",
@@ -6401,6 +6445,7 @@
       "cats": [
         11
       ],
+      "cpe": "",
       "headers": {
         "X-Powered-By": "^Medium$"
       },
@@ -6480,6 +6525,7 @@
         "ASP.NET_SessionId": "",
         "ASPSESSION": ""
       },
+      "cpe": "cpe:/a:microsoft:asp.net",
       "headers": {
         "X-AspNet-Version": "(.+)\\;version:\\1",
         "X-Powered-By": "^ASP\\.NET"
@@ -6494,6 +6540,7 @@
       "cats": [
         20
       ],
+      "cpe": "cpe:/a:microsoft:excel",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:excel\"|<!--\\s*(?:START|END) OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD\\s*-->|<div [^>]*x:publishsource=\"?Excel\"?)",
       "icon": "Microsoft Excel.svg",
       "meta": {
@@ -6516,6 +6563,7 @@
       "cats": [
         20
       ],
+      "cpe": "cpe:/a:microsoft:powerpoint",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:powerpoint\"|<link rel=\"?Presentation-XML\"? href=\"?[^\"]+\\.xml\"?>|<o:PresentationFormat>[^<]+</o:PresentationFormat>[^!]+<o:Slides>\\d+</o:Slides>(?:[^!]+<o:Version>([\\d.]+)</o:Version>)?)\\;version:\\1",
       "icon": "Microsoft PowerPoint.svg",
       "meta": {
@@ -6528,6 +6576,7 @@
       "cats": [
         20
       ],
+      "cpe": "cpe:/a:microsoft:publisher",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:publisher\"|<!--[if pub]><xml>)",
       "icon": "Microsoft Publisher.svg",
       "meta": {
@@ -6540,6 +6589,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:microsoft:sharepoint_server",
       "headers": {
         "MicrosoftSharePointTeamServices": "^(.+)$\\;version:\\1",
         "SPRequestGuid": "",
@@ -6560,6 +6610,7 @@
       "cats": [
         20
       ],
+      "cpe": "cpe:/a:microsoft:word",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:word\"|<w:WordDocument>|<div [^>]*class=\"?WordSection1[\" >]|<style[^>]*>[^>]*@page WordSection1)",
       "icon": "Microsoft Word.svg",
       "meta": {
@@ -6602,6 +6653,7 @@
       "cats": [
         2
       ],
+      "cpe": "cpe:/a:minibb:minibb",
       "html": "<a href=\"[^\"]+minibb[^<]+</a>[^<]+\\n<!--End of copyright link",
       "icon": "MiniBB.png",
       "website": "http://www.minibb.com"
@@ -6695,6 +6747,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:mochiweb_project:mochiweb",
       "headers": {
         "Server": "MochiWeb(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -6741,6 +6794,7 @@
       "cookies": {
         "MOIN_SESSION": ""
       },
+      "cpe": "cpe:/a:moinmo:moinmoin",
       "icon": "MoinMoin.png",
       "implies": "Python",
       "js": {
@@ -6765,6 +6819,7 @@
       "cats": [
         16
       ],
+      "cpe": "cpe:/a:acquia:mollom",
       "html": "<img[^>]+\\.mollom\\.com",
       "icon": "Mollom.png",
       "script": "mollom(?:\\.min)?\\.js",
@@ -6813,6 +6868,7 @@
       "cats": [
         34
       ],
+      "cpe": "cpe:/a:mongodb:mongodb",
       "icon": "MongoDB.png",
       "website": "http://www.mongodb.org"
     },
@@ -6820,6 +6876,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:zed_shaw:mongrel",
       "headers": {
         "Server": "Mongrel"
       },
@@ -6841,6 +6898,7 @@
       "cats": [
         18
       ],
+      "cpe": "cpe:/a:mono:mono",
       "headers": {
         "X-Powered-By": "Mono"
       },
@@ -6879,6 +6937,7 @@
         "MOODLEID_": "",
         "MoodleSession": ""
       },
+      "cpe": "cpe:/a:moodle:moodle",
       "html": "<img[^>]+moodlelogo",
       "icon": "Moodle.png",
       "implies": "PHP",
@@ -6930,6 +6989,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:sixapart:movable_type",
       "icon": "Movable Type.png",
       "meta": {
         "generator": "Movable Type"
@@ -6974,6 +7034,7 @@
       "cats": [
         2
       ],
+      "cpe": "cpe:/a:mybb:mybb",
       "html": "(?:<script [^>]+\\s+<!--\\s+lang\\.no_new_posts|<a[^>]* title=\"Powered By MyBB)",
       "icon": "MyBB.png",
       "implies": [
@@ -6997,6 +7058,7 @@
       "cats": [
         34
       ],
+      "cpe": "cpe:/a:mysql:mysql",
       "icon": "MySQL.svg",
       "website": "http://mysql.com"
     },
@@ -7149,6 +7211,7 @@
         18,
         22
       ],
+      "cpe": "cpe:/a:zeit:next.js",
       "headers": {
         "x-powered-by": "^Next\\.js ?([0-9.]+)?\\;version:\\1"
       },
@@ -7167,6 +7230,7 @@
       "cats": [
         7
       ],
+      "cpe": "cpe:/a:imagely:nextgen_gallery",
       "html": [
         "<!-- <meta name=\"NextGEN\" version=\"([\\d.]+)\" /> -->\\;version:\\1"
       ],
@@ -7182,6 +7246,7 @@
         22,
         64
       ],
+      "cpe": "cpe:/a:nginx:nginx",
       "headers": {
         "Server": "nginx(?:/([\\d.]+))?\\;version:\\1",
         "X-Fastcgi-Cache": ""
@@ -7193,6 +7258,7 @@
       "cats": [
         27
       ],
+      "cpe": "cpe:/a:nodejs:node.js",
       "icon": "node.js.png",
       "website": "http://nodejs.org"
     },
@@ -7200,6 +7266,7 @@
       "cats": [
         2
       ],
+      "cpe": "cpe:/a:nodebb:nodebb",
       "headers": {
         "X-Powered-By": "^NodeBB$"
       },
@@ -7275,6 +7342,7 @@
         1,
         6
       ],
+      "cpe": "cpe:/a:odoo:odoo",
       "html": "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
       "icon": "Odoo.png",
       "implies": [
@@ -7331,6 +7399,7 @@
       "cats": [
         6
       ],
+      "cpe": "cpe:/a:open-classifieds:open_classifieds",
       "icon": "Open Classifieds.png",
       "meta": {
         "author": "open-classifieds\\.com",
@@ -7345,6 +7414,7 @@
       "cookies": {
         "OJSSID": ""
       },
+      "cpe": "cpe:/a:public_knowledge_project:open_journal_systems",
       "icon": "Open Journal Systems.png",
       "implies": "PHP",
       "meta": {
@@ -7356,6 +7426,7 @@
       "cats": [
         10
       ],
+      "cpe": "cpe:/a:openwebanalytics:open_web_analytics",
       "html": "<!-- (?:Start|End) Open Web Analytics Tracker -->",
       "icon": "Open Web Analytics.png",
       "js": {
@@ -7384,6 +7455,7 @@
       "cookies": {
         "OCSESSID": ""
       },
+      "cpe": "cpe:/a:opencart:opencart",
       "icon": "OpenCart.png",
       "implies": "PHP",
       "website": "http://www.opencart.com"
@@ -7392,6 +7464,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:alkacon:opencms",
       "headers": {
         "Server": "OpenCms"
       },
@@ -7469,6 +7542,7 @@
       "cats": [
         33
       ],
+      "cpe": "cpe:/a:openssl:openssl",
       "headers": {
         "Server": "OpenSSL(?:/([\\d.]+[a-z]?))?\\;version:\\1"
       },
@@ -7499,6 +7573,7 @@
       "cats": [
         36
       ],
+      "cpe": "cpe:/a:openx:openx",
       "icon": "OpenX.png",
       "script": [
         "https?://[^/]*\\.openx\\.net",
@@ -7538,6 +7613,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:oracle:application_server",
       "headers": {
         "Server": "Oracle[- ]Application[- ]Server(?: Containers for J2EE)?(?:[- ](\\d[\\da-z./]+))?\\;version:\\1"
       },
@@ -7548,6 +7624,7 @@
       "cats": [
         6
       ],
+      "cpe": "cpe:/a:oracle:commerce_platform",
       "headers": {
         "X-ATG-Version": "(?:ATGPlatform/([\\d.]+))?\\;version:\\1"
       },
@@ -7580,6 +7657,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:oracle:http_server",
       "headers": {
         "Server": "Oracle-HTTP-Server(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -7598,6 +7676,7 @@
       "cats": [
         23
       ],
+      "cpe": "cpe:/a:oracle:web_cache",
       "headers": {
         "Server": "Oracle(?:AS)?[- ]Web[- ]Cache(?:[- /]([\\da-z./]+))?\\;version:\\1"
       },
@@ -7670,6 +7749,7 @@
       "cookies": {
         "PHPSESSID": ""
       },
+      "cpe": "cpe:/a:php:php",
       "headers": {
         "Server": "php/?([\\d.]+)?\\;version:\\1",
         "X-Powered-By": "^php/?([\\d.]+)?\\;version:\\1"
@@ -7682,6 +7762,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:php-fusion:php-fusion",
       "html": "Powered by <a href=\"[^>]+php-fusion",
       "headers": {
         "X-Powered-By": "PHP-Fusion (.+)$\\;version:\\1"
@@ -7697,6 +7778,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:phpnuke:php-nuke",
       "html": "<[^>]+Powered by PHP-Nuke",
       "icon": "PHP-Nuke.png",
       "implies": "PHP",
@@ -7733,6 +7815,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:pagekit:pagekit",
       "icon": "Pagekit.png",
       "meta": {
         "generator": "Pagekit"
@@ -7836,6 +7919,7 @@
       "cats": [
         41
       ],
+      "cpe": "cpe:/a:paypal:paypal",
       "html": "<input[^>]+_s-xclick",
       "icon": "PayPal.svg",
       "js": {
@@ -7898,6 +7982,7 @@
       "cats": [
         27
       ],
+      "cpe": "cpe:/a:perl:perl",
       "headers": {
         "Server": "\\bPerl\\b(?: ?/?v?([\\d.]+))?\\;version:\\1"
       },
@@ -7949,6 +8034,7 @@
       "cats": [
         22
       ],
+      "cpe": "cpe:/a:phusionpassenger:phusion_passenger",
       "headers": {
         "Server": "Phusion Passenger ([\\d.]+)\\;version:\\1",
         "X-Powered-By": "Phusion Passenger ?([\\d.]+)?\\;version:\\1"
@@ -7962,6 +8048,7 @@
         6,
         18
       ],
+      "cpe": "cpe:/a:pimcore:pimcore",
       "headers": {
         "X-Powered-By": "^pimcore$"
       },
@@ -8029,6 +8116,7 @@
       "cookies": {
         "PLAY_SESSION": ""
       },
+      "cpe": "cpe:/a:playframework:play_framework",
       "icon": "Play.svg",
       "implies": "Scala",
       "website": "https://www.playframework.com"
@@ -8059,6 +8147,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:pligg:pligg_cms",
       "html": "<span[^>]+id=\"xvotes-0",
       "icon": "Pligg.png",
       "js": {
@@ -8073,6 +8162,7 @@
       "cats": [
         1
       ],
+      "cpe": "cpe:/a:plone:plone",
       "icon": "Plone.png",
       "implies": "Python",
       "meta": {
@@ -8141,6 +8231,7 @@
       "cats": [
         34
       ],
+      "cpe": "cpe:/a:postgresql:postgresql",
       "icon": "PostgreSQL.png",
       "website": "http://www.postgresql.org/"
     },
@@ -8188,6 +8279,7 @@
       "cookies": {
         "PrestaShop": ""
       },
+      "cpe": "cpe:/a:prestashop:prestashop",
       "headers": {
         "Powered-By": "^Prestashop$"
       },
@@ -8341,6 +8433,7 @@
       "cats": [
         19
       ],
+      "cpe": "cpe:/a:pygments:pygments",
       "html": "<link[^>]+pygments\\.css[\"']",
       "icon": "pygments.png",
       "website": "http://pygments.org"
@@ -8363,6 +8456,7 @@
       "cats": [
         27
       ],
+      "cpe": "cpe:/a:python:python",
       "headers": {
         "Server": "(?:^|\\s)Python(?:/([\\d.]+))?\\;version:\\1"
       },
