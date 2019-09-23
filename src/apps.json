@@ -4942,7 +4942,6 @@
       "cats": [
         15
       ],
-      "cpe": "",
       "icon": "IntenseDebate.png",
       "script": "intensedebate\\.com",
       "website": "http://intensedebate.com"
@@ -5397,7 +5396,6 @@
       "cats": [
         22
       ],
-      "cpe": "",
       "headers": {
         "Server": "^Kestrel"
       },
@@ -5872,7 +5870,6 @@
         52,
         53
       ],
-      "cpe": "",
       "icon": "LiveHelp.png",
       "script": "^https?://server\\.livehelp\\.it/widgetjs/[0-9]{5}/[0-9]{1,3}\\.js",
       "website": "http://www.livehelp.it"
@@ -6445,7 +6442,6 @@
       "cats": [
         11
       ],
-      "cpe": "",
       "headers": {
         "X-Powered-By": "^Medium$"
       },
